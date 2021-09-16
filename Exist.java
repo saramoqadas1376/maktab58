@@ -5,7 +5,7 @@ public class Exist {
         Scanner input = new Scanner(System.in);
         System.out.println("enter first string:");
         String firstString = input.nextLine();
-        System.out.println("enter second string:");
+        System.out.println("enter 2nd string:");
         String secondString = input.nextLine();
         boolean flag=false;
         for (int i=0;i<firstString.length();i++){
