@@ -5,7 +5,11 @@ public class Exist {
         Scanner input = new Scanner(System.in);
         System.out.println("enter first string:");
         String firstString = input.nextLine();
+<<<<<<< HEAD
         System.out.println("enter third string:");
+=======
+        System.out.println("enter 2nd string:");
+>>>>>>> faa335a5cd4a03952b69cd7b7a65715b0a2c8ba6
         String secondString = input.nextLine();
         boolean flag=false;
         for (int i=0;i<firstString.length();i++){
